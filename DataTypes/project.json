@@ -1,0 +1,9 @@
+{
+    "id": "DataTypes",
+    "type": "application",
+    "value": {
+        "author": "Jane Doe",
+        "description": "Vegan meal delivery for designers",
+        "language": "cpp"
+    }
+}

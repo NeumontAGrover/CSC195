@@ -1,0 +1,9 @@
+{
+    "id": "hello_world",
+    "type": "application",
+    "value": {
+        "author": "Jane Doe",
+        "description": "Coding tutorials for entrepreneurs",
+        "language": "cpp"
+    }
+}
