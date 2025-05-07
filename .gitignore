@@ -1,7 +1,13 @@
+.vscode
+
 hello_world/.bake_cache
 hello_world/.vscode
-hello_world/.bin
+hello_world/bin
 
 DataTypes/.bake_cache
 DataTypes/.vscode
-DataTypes/.bin
+DataTypes/bin
+
+UserDataTypes/.bake_cache
+UserDataTypes/.vscode
+UserDataTypes/bin
