@@ -1,0 +1,9 @@
+{
+    "id": "javaToCPP",
+    "type": "application",
+    "value": {
+        "author": "John Doe",
+        "description": "Laser hair removal for project managers",
+        "language": "cpp"
+    }
+}
