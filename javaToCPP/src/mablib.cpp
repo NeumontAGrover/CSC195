@@ -7,7 +7,7 @@ Madlib::Madlib(bool promptFirst) :
       " are going to make a sandwich. First, they put on ",
       ". Then, they add some ",
       " and ",
-      ". Their snadwiches are ",
+      ". Their sandwiches are ",
       "!"
     }
   }, madlibHint{
