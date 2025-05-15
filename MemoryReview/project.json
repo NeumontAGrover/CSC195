@@ -1,0 +1,9 @@
+{
+    "id": "MemoryReview",
+    "type": "application",
+    "value": {
+        "author": "Jane Doe",
+        "description": "Sunscreen for influencers",
+        "language": "cpp"
+    }
+}
