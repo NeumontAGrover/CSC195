@@ -1,0 +1,9 @@
+{
+    "id": "Containers",
+    "type": "application",
+    "value": {
+        "author": "John Doe",
+        "description": "Furniture for married couples",
+        "language": "cpp"
+    }
+}
