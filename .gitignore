@@ -15,3 +15,7 @@ UserDataTypes/bin
 CPPClasses/.bake_cache
 CPPClasses/.vscode
 CPPClasses/bin
+
+FailCPP/.bake_cache
+FailCPP/.vscode
+FailCPP/bin

@@ -1,0 +1,9 @@
+{
+    "id": "FailCPP",
+    "type": "application",
+    "value": {
+        "author": "John Doe",
+        "description": "Solar energy for dogs",
+        "language": "cpp"
+    }
+}
