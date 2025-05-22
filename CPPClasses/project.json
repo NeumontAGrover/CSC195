@@ -1,0 +1,9 @@
+{
+    "id": "CPPClasses",
+    "type": "application",
+    "value": {
+        "author": "John Doe",
+        "description": "A towel for millenials",
+        "language": "cpp"
+    }
+}
