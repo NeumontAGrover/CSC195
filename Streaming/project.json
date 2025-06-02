@@ -1,0 +1,9 @@
+{
+    "id": "Streaming",
+    "type": "application",
+    "value": {
+        "author": "John Doe",
+        "description": "A social network for dogs",
+        "language": "cpp"
+    }
+}
