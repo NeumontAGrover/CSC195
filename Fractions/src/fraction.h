@@ -48,7 +48,7 @@ namespace mathlib {
     Fraction(): numerator(1), denominator(1) {}
 
     Fraction(T n, T d): numerator(n) {
-      denominator = d == 0 ? 1 : denominator;
+      denominator = d == 0 ? 1 : d;
     }
 
     void operator+=(Fraction<T> frac) {
