@@ -3,19 +3,24 @@
 #include "oak.h"
 #include "willow.h"
 #include "birch.h"
+#include <fstream>
+#include <memory>
+using std::string;
+using std::unique_ptr;
 
 class Database {
 public:
-  ~Database() {
-    for (Tree *tree : trees)
-      delete tree;
-  }
+  void Add(Tree::eType type);
 
-  void Create(Tree::eType type);
+  void Save(const string& filename);
+  void Load(const string& filename);
+
   void DisplayAll();
   void Display(const string& name);
   void Display(Tree::eType type);
 
 private:
-  std::vector<Tree*> trees;
+  std::vector<unique_ptr<Tree>> trees;
+
+  Tree* Create(Tree::eType type);
 };

@@ -3,10 +3,11 @@
 
 int main(int argc, char *argv[]) {
   Database database;
+  // int* num = new int(5);
 
   bool quit = false;
   while (!quit) {
-    std::cout << "1 - Create\n2 - Display All\n3 - Display by Name\n4 - Display by Type\n5 - Quit\n";
+    std::cout << "1 - Create\n2 - Display All\n3 - Display by Name\n4 - Display by Type\n5 - Load\n6 - Save\n7 - Quit\n";
     int choice;
     std::cin >> choice;
 
@@ -16,7 +17,7 @@ int main(int argc, char *argv[]) {
         std::cout << "0. Oak\n1. Willow\n2. Birch" << std::endl;
         int choice;
         std::cin >> choice;
-        database.Create(static_cast<Tree::eType>(choice));
+        database.Add(static_cast<Tree::eType>(choice));
         break;
       }
       case 2: {
@@ -39,6 +40,20 @@ int main(int argc, char *argv[]) {
         break;
       }
       case 5: {
+        std::cout << "enter filename: ";
+        std::string name;
+        std::cin >> name;
+        database.Load(name);
+        break;
+      }
+      case 6: {
+        std::cout << "enter filename: ";
+        std::string name;
+        std::cin >> name;
+        database.Save(name);
+        break;
+      }
+      case 7: {
         quit = true;
         break;
       }
